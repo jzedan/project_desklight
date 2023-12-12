@@ -35,7 +35,7 @@ pinstate =digitalRead(ledPin);
     // turn LED on:
 
      digitalWrite(ledPin, HIGH);
-     Serial.println ( "Taken1");
+     Serial.println ( "Taken");
      
      //counter= counter + 1;      
  }
@@ -54,12 +54,12 @@ if (buttonState ==HIGH && pinstate ==HIGH )
     
   if (pinstate==HIGH)
   {
-    Serial.println ( "Taken2");
+    Serial.println ( "Taken");
     }
 
    if ( pinstate==LOW)
    {
-    Serial.println ( "Empty2");
+    Serial.println ( "Empty");
     }
 
 
